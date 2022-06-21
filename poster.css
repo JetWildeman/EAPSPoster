@@ -37,7 +37,7 @@ b {
   }
   body > header,
   body > footer {
-    grid-auto-flow: row;
+    grid-auto-flow: column;
     justify-content: space-between;
   }
   body > header {
