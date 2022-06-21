@@ -122,7 +122,7 @@ body > header address {
   margin-top: 0.75rem;
 }
 body > header .publication-info {
-	{% set venue = "EAPS conference" %;
+	{
   % set pub_date = "June 30, 2022" %}
 }
 body > header time {
@@ -159,6 +159,7 @@ main figure object:first-of-type:last-of-type {
 main figure figcaption {
   display: block;
   margin-top: 0.5rem;
+  font-style: italic;
 }
 article {
   align-content: stretch;
